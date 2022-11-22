@@ -13,11 +13,11 @@ import java.lang.annotation.Target;
 public @interface CourseCode {
 
     //define default course code
-    public String value() default "LUV";
+    public String [] value() default {"ENG","IT","DE"};
     //define default error message
     public String message() default "must start with LUV";
     //define default groups
     public Class<?>[] groups () default {};
     //define default payloads
-    public Class<? extends Payload>[]paylod () default {};
+    public Class<? extends Payload>[]payload () default {};
 }

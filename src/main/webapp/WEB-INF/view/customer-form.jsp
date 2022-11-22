@@ -24,6 +24,10 @@
         Poscal Code: <form:input path="postalCode"/>
         <form:errors path="postalCode" ccClass="error"/>
         <br><br>
+
+        Course Code: <form:input path="courseCode"/>
+        <form:errors path="courseCode" ccClass="error"/>
+        <br><br>
         <input type="submit" value="Submit" />
     </form:form>
 </body>

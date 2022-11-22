@@ -54,7 +54,6 @@
       <version>6.2.5.Final</version>
     </dependency>
 
-
   </dependencies>
 
   <build>
