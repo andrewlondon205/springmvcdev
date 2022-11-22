@@ -38,10 +38,5 @@ public class Student
         languageOptions.put("Javascript","Javascript");
         languageOptions.put("Assembly","Assembly");
         languageOptions.put("PHP","PHP");
-
-
     }
-
-
-
 }

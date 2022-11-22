@@ -6,7 +6,7 @@
 <head>
     <title>Customer Registration </title>
     <style>
-        .error{color:red}
+        .error {color:red}
     </style>
 </head>
 <body>
@@ -17,6 +17,12 @@
         <br><br>
         Last Name (*): <form:input path="lastName"/>
         <form:errors path="lastName" ccClass="error"/>
+         <br><br>
+        Free Passes: <form:input path="freePasses"/>
+        <form:errors path="freePasses" ccClass="error"/>
+         <br><br>
+        Poscal Code: <form:input path="postalCode"/>
+        <form:errors path="postalCode" ccClass="error"/>
         <br><br>
         <input type="submit" value="Submit" />
     </form:form>
